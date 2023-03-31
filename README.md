@@ -1,4 +1,4 @@
-# G00TR-IG.py
+# G00TR-IG
 Instagram Accts Password Guessing Tool.
 
 Commands :
