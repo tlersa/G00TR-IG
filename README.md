@@ -3,7 +3,7 @@ Instagram Accts Password Guessing Tool.
 
 Commands :
 - [+] - Enter Your ID : Enter The Telegram ID
-- [+] - Enter Your BOT Token : Enter the Telegram BOT Token
+- [+] - Enter Your BOT Token : Enter The Telegram BOT Token
 - [+] - Enter File Name : Enter The Name Of The Passwords File
 - [+] - Enter The Target Username : Enter The Username Of The Target Acct
 
