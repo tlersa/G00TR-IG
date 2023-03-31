@@ -11,5 +11,9 @@ Advantages :
 - Free And Open Source ✔️
 - Quick Guess ✔️
 - Without A Proxy System ✔️
-- You Need Six Passwords ✔️
+- You Need A Passwords List ✔️
 - Supports sending Info To Telegram ✔️
+
+Comments :
+- The Tool Without A Proxy System
+- The Tool Needs A Password List
