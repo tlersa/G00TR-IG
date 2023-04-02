@@ -1,5 +1,17 @@
-import requests, random, pyfiglet
+import requests, random, pyfiglet, os
 from user_agent import generate_user_agent
+
+try:
+    import requests, random, pyfiglet, os
+    from user_agent import generate_user_agent
+except ImportError:
+    os.system("pip install requests")
+    os.system("pip install random")
+    os.system("pip install pyfiglet")
+    os.system("pip install os")
+    os.system("pip install user_agent")
+    
+    os.system("clear")
 
 #--------------------------------
 Black = "\033[1;30m"       #Black
