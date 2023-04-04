@@ -4,7 +4,7 @@ from user_agent import generate_user_agent
 try:
     import requests, random, pyfiglet, os
     from user_agent import generate_user_agent
-except ImportError:
+except ModuleNotFoundError:
     os.system("pip install requests")
     os.system("pip install random")
     os.system("pip install pyfiglet")
