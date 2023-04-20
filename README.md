@@ -1,19 +1,24 @@
 # G00TR-IG
-Instagram Accts Password Guessing Tool.
+أداة تخمين كلمة سر الإنستقرام
 
-Commands :
-- [+] - Enter Your ID : Enter The Telegram ID
-- [+] - Enter Your BOT Token : Enter The Telegram BOT Token
-- [+] - Enter File Name : Enter The Name Of The Passwords File
-- [+] - Enter The Target Username : Enter The Username Of The Target Acct
 
-Advantages :
-- Free And Open Source ✔️
-- Quick Guess ✔️
-- Without A Proxy System ✔️
-- You Need A Passwords List ✔️
-- Supports sending Info To Telegram ✔️
+الأوامر :
+- Do You Wnat To Send Info To The Telegram? (Y/N)
+إختر Y = نعم أو N = لا
+- [1] - Enter Your ID :
+ادخل آيدي التليقرام، تحصل عليه من هذا البوت : @ get_user_id_bot
+- [2] - Enter Your Token BOT :
+ادخل توكن بوت التليقرام، تحصل عليه من هذا البوت عن طريق إنشاء بوت جديد : @ BotFather
+- [+] - Enter Name File :
+ادخل اسم ملف كلمات السر، موجودة بقناة التليقرام
+- [+] - Enter Username Target :
+ادخل إسم مستخدم الحساب المستهدف
 
-Comments :
-- The Tool Without A Proxy System
-- The Tool Needs A Password List
+المميزات :
+- مجانية ومفتوحة المصدر ✔️
+- تخمين سريع ✔️
+- تدعم ميزة الإرسال للتليقرام ✔️
+
+ملاحظات :
+- الأداة بدون نظام بروكسي 
+- الأداة تحتاج قائمة كلمات مرور
