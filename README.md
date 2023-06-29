@@ -4,7 +4,7 @@
 
 الأوامر :
 - Do You Wnat To Send Info To The Telegram? (Y/N)
-هل تريد إرسال المعلومات إلى التليقرام؟ اختر Y = نعم أو N = لا 
+هل تريد إرسال المعلومات إلى التليقرام؟
 - [1] - Enter Your ID : 
 ادخل آيدي التليقرام، تحصل عليه من هذا البوت : @ get_user_id_bot
 - [2] - Enter Your Token BOT :
