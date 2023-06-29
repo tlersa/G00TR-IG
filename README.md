@@ -1,6 +1,7 @@
 # G00TR-IG
 ## أداة تخمين كلمات سر حسابات الإنستقرام
 
+<img src="https://github.com/tlersa/G00TR-IG/assets/111729973/01fb7975-faf2-42cc-8bc7-40f28ecdb740" width="300">
 
 #### الأوامر
 - Do You Wnat To Send Info To The Telegram? (Y/N)
@@ -32,6 +33,3 @@ pip install pyfiglet
 pip install os
 pip install user_agent
 ```
-
-<img src="![G00TR-IG](https://github.com/tlersa/G00TR-IG/assets/111729973/07c9390a-948e-4c37-80dd-b97418d15bea)
-" width="300" height="600">
